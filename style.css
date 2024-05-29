@@ -1,0 +1,177 @@
+body {
+	background-color: #D24545;
+	margin:0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+header{
+	background-color: #FAEF5D;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 30px;
+	padding-right: 30 px;
+}
+
+.logo {
+	color: #711DB0;
+	cursor: pointer;
+}
+
+.logo:hover {
+	color: #7ED7C1;
+	transform: scale(1.2);
+	transition: all ease .5;
+}
+
+nav ul {
+	display: flex;
+	align align-items: center;
+
+}
+
+nav li {
+	list-style: none;
+	padding-right: 30px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: transform: scale(1.2);
+	transition: all ease .5;;
+}
+
+nav li a:hover {
+	color: #F78CA2;
+	text text-underline-offset: 8 px;
+	text-decoration: underline;
+}
+
+.title-hero {
+	text-align: center;
+	padding-top : 50px;
+	padding-bottom: 30px;
+
+}
+
+
+.title-hero h1 {
+	color: #3C486B;
+}
+
+.image-hero img {
+	display : block;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 20px;
+	box-shadow: 2px 4px 10px greenyellow;
+}
+
+.image-hero img:hover {
+	transform: scale(.8);
+	transition: 2s;
+}
+
+#about {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#about h2 {
+	padding-top: 40px;
+	color: #FFB534;
+}
+
+hr {
+	width: 30%;
+	
+}
+
+#menu {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#menu h2 {
+	padding-top: 40px;
+	color: #FFB534;
+}
+
+.cards {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.card {
+    background-color:#FFB534 ;
+    width: 350px;
+    border: 1px solid #65B741;
+    border-radius: 15px;
+    height: 400px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card img:hover {
+    transform: scale(.9);
+    transition: .3s;
+}
+
+.container {
+    text-align: center;
+}
+
+.card a {
+	text-decoration: none;
+	color: whitesmoke;
+	padding: 12px 30px;
+	background-color: limegreen;
+	border-radius: 12 px;
+	box box-shadow: 1px 2px 4px;
+	border: 1px 2px 4px;
+	margin-left: 105px;
+	
+	
+}
+
+.card a:hover {
+	background-color: green;
+	color: whitesmoke;
+}
+
+#contact {
+	width: 95%;
+	margin:40px auto ;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.image-contact {
+	width: 50%;
+}
+
+.image-contact img {
+	width: 100%;
+	border-radius: 50%;
+}
+.sosmed-icon a img {
+	width: 32px;
+}
+footer {
+	width: 95%;
+	margin: 60px auto;
+	color: whitesmoke;
+	padding: 20px;
+	text-align: center;
+}
